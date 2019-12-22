@@ -13,6 +13,9 @@
 		8CB4F60C23AF271C00C58DC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB4F60B23AF271C00C58DC6 /* Assets.xcassets */; };
 		8CB4F60F23AF271C00C58DC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB4F60E23AF271C00C58DC6 /* Preview Assets.xcassets */; };
 		8CB4F61223AF271C00C58DC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB4F61023AF271C00C58DC6 /* LaunchScreen.storyboard */; };
+		8CB4F61A23AF280200C58DC6 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB4F61923AF280200C58DC6 /* PlayerView.swift */; };
+		8CB4F61C23AF282500C58DC6 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB4F61B23AF282500C58DC6 /* VideoView.swift */; };
+		8CB4F61E23AF283600C58DC6 /* VideoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB4F61D23AF283600C58DC6 /* VideoCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		8CB4F60E23AF271C00C58DC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8CB4F61123AF271C00C58DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CB4F61323AF271C00C58DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CB4F61923AF280200C58DC6 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		8CB4F61B23AF282500C58DC6 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		8CB4F61D23AF283600C58DC6 /* VideoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 				8CB4F60B23AF271C00C58DC6 /* Assets.xcassets */,
 				8CB4F61023AF271C00C58DC6 /* LaunchScreen.storyboard */,
 				8CB4F61323AF271C00C58DC6 /* Info.plist */,
+				8CB4F61923AF280200C58DC6 /* PlayerView.swift */,
+				8CB4F61B23AF282500C58DC6 /* VideoView.swift */,
+				8CB4F61D23AF283600C58DC6 /* VideoCard.swift */,
 				8CB4F60D23AF271C00C58DC6 /* Preview Content */,
 			);
 			path = VideoCard;
@@ -147,8 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CB4F60623AF271800C58DC6 /* AppDelegate.swift in Sources */,
+				8CB4F61E23AF283600C58DC6 /* VideoCard.swift in Sources */,
+				8CB4F61C23AF282500C58DC6 /* VideoView.swift in Sources */,
 				8CB4F60823AF271800C58DC6 /* SceneDelegate.swift in Sources */,
 				8CB4F60A23AF271800C58DC6 /* ContentView.swift in Sources */,
+				8CB4F61A23AF280200C58DC6 /* PlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
